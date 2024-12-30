@@ -136,8 +136,6 @@ html:not(.dark) {
 	scroll-behavior: auto !important;
 
 	/* Appended code */
-	max-width: 768px;
-	margin: var(--base-size-24) auto;
 	padding: 0px var(--base-size-16);
 }
 
@@ -898,13 +896,13 @@ html:not(.dark) {
 
 #slideshow .highlight pre,
 #slideshow pre {
-	padding: var(--base-size-16);
+	padding: var(--base-size-16) !important;
 	overflow: auto;
-	font-size: 85%;
-	line-height: 1.45;
+	font-size: 85% !important;
+	line-height: 1.45 !important;
 	color: var(--fgColor-default);
 	background-color: var(--bgColor-muted);
-	border-radius: 6px;
+	border-radius: 6px !important;
 }
 
 #slideshow pre code,
