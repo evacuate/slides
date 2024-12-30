@@ -2,69 +2,144 @@
 theme: ./
 ---
 
-# Slidev Theme Starter
+# Slides
 
-Presentation slides for developers
-
----
-
-# What is Slidev?
-
-Slidev is a slide maker and presentation tool designed for developers. It includes the following features:
-
-- 📝 **Text-based** - focus on your content with Markdown, then style it later
-- 🎨 **Themable** - themes can be shared and reused as npm packages
-- 🧑‍💻 **Developer Friendly** - code highlighting, live coding with autocompletion
-- 🤹 **Interactive** - embed Vue components to enhance your expressions
-- 🎥 **Recording** - built-in recording and camera view
-- 📤 **Portable** - export to PDF, PPTX, PNGs, or even a hostable SPA
-- 🛠 **Hackable** - virtually anything that's possible on a webpage is possible in Slidev
-
-Read more about [Why Slidev?](https://sli.dev/guide/why)
+This repository is a unified design adapted to the style used in the project.
 
 ---
 
-# Navigation
+# Headers
 
-Hover on the bottom-left corner to see the navigation's controls panel
+# H1
 
-## Keyboard Shortcuts
+## H2
 
-|                                                      |                             |
-| ---------------------------------------------------- | --------------------------- |
-| <kbd>space</kbd> / <kbd>tab</kbd> / <kbd>right</kbd> | next animation or slide     |
-| <kbd>left</kbd> / <kbd>shift</kbd> <kbd>space</kbd>  | previous animation or slide |
-| <kbd>up</kbd>                                        | previous slide              |
-| <kbd>down</kbd>                                      | next slide                  |
+### H3
+
+#### H4
+
+##### H5
+
+###### H6
+
+---
+
+# Emphasis
+
+**This is bold text**
+
+_This is italic text_
+
+~~This is strikethrough text~~
+
+---
+
+# Lists
+
+1. Make my changes
+   1. Fix bug
+   2. Improve formatting
+      - Make the headings bigger
+2. Push my commits to GitHub
+3. Open a pull request
+   - Describe my changes
+   - Mention all the members of my team
+     - Ask for feedback
+
+- Create a list by starting a line with `+`, `-`, or `*`
+- Sub-lists are made by indenting 2 spaces:
+  - Marker character change forces new list start:
+    - Ac tristique libero volutpat at
+    - Facilisis in pretium nisl aliquet
+    - Nulla volutpat aliquam velit
+
+---
+
+# Task Lists
+
+- [x] This is a complete item
+- [ ] This is an incomplete item
+- [x] This is a complete item
+
+---
+
+# Links
+
+[GitHub](https://github.com)
+
+---
+
+# Images
+
+<img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" width="300">
+
+---
+
+# Footnotes
+
+Here's a simple footnote,[^1] and here's a longer one.[^bignote]
+
+[^1]: This is the first footnote.
+
+[^bignote]: Here's one with multiple paragraphs and code.
+
+    Indent paragraphs to include them in the footnote.
+
+    `{ my code }`
 
 ---
 
 # Code
 
-Use code snippets and get the highlighting directly!
+```python
+def hello():
+    print("Hello, world!")
+```
 
-```css
-@import 'prism-theme-vars/base.css';
-
-:root {
-	--prism-foreground: #393a34;
-	--prism-background: #fbfbfb;
-	--prism-comment: #b8c4b8;
-	--prism-string: #c67b5d;
-	--prism-literal: #3a9c9b;
-	--prism-keyword: #248459;
-	--prism-function: #849145;
-	--prism-deleted: #a14f55;
-	--prism-class: #2b91af;
-	--prism-builtin: #a52727;
-	--prism-property: #ad502b;
-	--prism-namespace: #c96880;
-	--prism-punctuation: #8e8f8b;
-	--prism-decorator: #bd8f8f;
-	--prism-json-property: #698c96;
+```ts
+function hello() {
+	console.log('Hello, world!');
 }
 ```
 
-# Learn More
+---
 
-[Documentation](https://sli.dev) / [GitHub Repo](https://github.com/slidevjs/slidev)
+# Tables
+
+| Syntax    | Description |
+| --------- | ----------- |
+| Header    | Title       |
+| Paragraph | Text        |
+
+---
+
+# Blockquotes
+
+> This is a blockquote with two paragraphs. Lorem ipsum dolor sit amet,
+> consectetuer adipiscing elit. Aliquam hendrerit mi posuere lectus.
+>
+> > This is a nested blockquote.
+> >
+> > > This is a nested blockquote.
+
+---
+
+# Inline HTML
+
+<dl>
+  <dt>Definition list</dt>
+  <dd>Is something people use sometimes.</dd>
+
+  <dt>Markdown in HTML</dt>
+  <dd>Does *not* work **very** well. Use HTML <em>tags</em>.</dd>
+</dl>
+
+---
+
+# Horizontal Rule
+
+```
+---
+```
+
+---
