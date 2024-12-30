@@ -10,7 +10,6 @@
 	--base-text-weight-semibold: 600;
 	--fontStack-monospace: ui-monospace, SFMono-Regular, SF Mono, Menlo, Consolas, Liberation Mono,
 		monospace;
-	--fgColor-accent: Highlight;
 }
 
 html.dark {
