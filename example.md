@@ -6,12 +6,6 @@ theme: ./
 
 Presentation slides for developers
 
-<div class="pt-12">
-  <span @click="$slidev.nav.next" class="px-2 py-1 rounded cursor-pointer" flex="~ justify-center items-center gap-2" hover="bg-white bg-opacity-10">
-    Press Space for next page <div class="i-carbon:arrow-right inline-block"/>
-  </span>
-</div>
-
 ---
 
 # What is Slidev?
@@ -45,36 +39,31 @@ Hover on the bottom-left corner to see the navigation's controls panel
 
 ---
 
-layout: image-right
-image: https://cover.sli.dev
-
----
-
 # Code
 
 Use code snippets and get the highlighting directly!
 
-```ts
-interface User {
-	id: number;
-	firstName: string;
-	lastName: string;
-	role: string;
-}
+```css
+@import 'prism-theme-vars/base.css';
 
-function updateUser(id: number, update: Partial<User>) {
-	const user = getUser(id);
-	const newUser = { ...user, ...update };
-	saveUser(id, newUser);
+:root {
+	--prism-foreground: #393a34;
+	--prism-background: #fbfbfb;
+	--prism-comment: #b8c4b8;
+	--prism-string: #c67b5d;
+	--prism-literal: #3a9c9b;
+	--prism-keyword: #248459;
+	--prism-function: #849145;
+	--prism-deleted: #a14f55;
+	--prism-class: #2b91af;
+	--prism-builtin: #a52727;
+	--prism-property: #ad502b;
+	--prism-namespace: #c96880;
+	--prism-punctuation: #8e8f8b;
+	--prism-decorator: #bd8f8f;
+	--prism-json-property: #698c96;
 }
 ```
-
----
-
-layout: center
-class: "text-center"
-
----
 
 # Learn More
 
