@@ -1,3 +1,9 @@
+.slidev-code-copy {
+	display: none;
+}
+
+/* Below this is shared or partially the same as other applications */
+
 #slideshow {
 	--base-size-4: 0.25rem;
 	--base-size-6: 0.375rem;
