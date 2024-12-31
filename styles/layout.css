@@ -2,6 +2,10 @@
 	display: none;
 }
 
+.slidev-slide-container.pointer-events-none > .slidev-slide-content {
+	transform: translate(-50%, -50%) scale(0.3) !important;
+}
+
 /* Below this is shared or partially the same as other applications */
 
 .slidev-page {
