@@ -2,7 +2,8 @@
 	display: none;
 }
 
-.slidev-slide-container.pointer-events-none > .slidev-slide-content {
+.slidev-slide-container.pointer-events-none > .slidev-slide-content,
+.next > .slidev-slide-container > .slidev-slide-content {
 	transform: translate(-50%, -50%) scale(0.3) !important;
 }
 
